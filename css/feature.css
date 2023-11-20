@@ -1,0 +1,50 @@
+.centered-container {
+    display: flex;
+    flex-direction: column; /* Stack the items vertically */
+    justify-content: center; /* Horizontally center the contents */
+    align-items: center; /* Center items horizontally within the container */
+    text-align: center; /* Center text within the content div */
+}
+
+.image {
+    height: 50rem;
+    width: 90%;
+    overflow: hidden;
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+}
+
+.image img {
+    height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+     -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+
+.content {
+    max-width: 1000px;
+    padding: 2rem;
+  text-align: center; /* Adjust this value as needed to control content width */
+}
+.content h3 {
+    font-size: 6rem;
+    color: white;
+}
+
+.link a {
+    font-size: 2rem;
+    color: #a4af0ed2;
+}
+
+.content p {
+    text-align: left; /* Left-align the text within the <p> element */
+    max-width: 800px; /* Set a reasonable maximum width */
+    margin: 0 auto; /* Center the content within its container horizontally */
+    line-height: 2; /* Adjust line height as needed */
+    font-size: 2rem; /* Adjust font size as needed */
+    color: #aaa; /* Text color */
+    padding: 1rem 0; /* Padding as needed */
+}
+
